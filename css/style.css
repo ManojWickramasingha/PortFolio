@@ -1,0 +1,631 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+.About {
+  background-color: rgb(255, 251, 251);
+  width: 100vw;
+  height: fit-content;
+  display: flex;
+}
+.profiles {
+  width: 30vw;
+  height: 400px;
+  background-color: #0f172a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.proPic {
+  width: 200px;
+  height: 200px;
+  padding: 5px;
+  background-color: white;
+  border: none;
+  border-radius: 50%;
+  background-image: url("img/man-reading-book.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.proDetails {
+  width: 450px;
+  color: rgb(8, 235, 8);
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.subD {
+  padding-left: 2px;
+}
+.supe {
+  padding-left: 2px;
+}
+.Description {
+  width: 67vw;
+  height: 400px;
+  background-color: #0f172a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.para1 {
+  width: 500px;
+  color: white;
+  padding: 10px;
+  background-color: #0f172a;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  word-spacing: normal;
+  font-style: oblique;
+  border: none;
+
+  box-shadow: 20px 18px 225px 94px rgba(0, 0, 0, 0.82);
+}
+.Blog {
+  width: 100vw;
+  height: fit-content;
+  background-color: rgb(255, 251, 251);
+  display: flex;
+  flex-direction: column;
+}
+.BlogContainer {
+  width: 97vw;
+  height: 400px;
+  background-color: #0f172a;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.Bbox1 {
+  width: 300px;
+  height: 300px;
+  background-color: #0b450d;
+  border: #09b90f solid 2px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 5px 5px 5px rgb(89, 221, 95), 10px 10px 12px rgb(252, 251, 251),
+    15px 15px 15px green;
+}
+.Bbox2 {
+  width: 300px;
+  height: 300px;
+  background-color: #0b450d;
+  border: #09b90f solid 2px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 5px 5px 5px rgb(89, 221, 95), 10px 10px 12px rgb(252, 251, 251),
+    15px 15px 15px green;
+}
+.BlogPic {
+  width: 300px;
+  height: 200px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-image: url("img/javaPost.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.BlogPic1 {
+  width: 300px;
+  height: 200px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-image: url("img/javaScriptPost.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.BlogPic2 {
+  width: 300px;
+  height: 200px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-image: url("img/Python\ banner.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.BlogDetails {
+  width: 300px;
+  height: 100px;
+  padding: 10px;
+  color: white;
+  font-weight: 900;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+.butt1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.icon {
+  width: 25px;
+  height: 25px;
+  background-color: rgb(78, 206, 78);
+  padding: 2px;
+  border: none;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Project {
+  width: 100vw;
+  height: fit-content;
+  background-color: rgb(255, 251, 251);
+  display: flex;
+}
+.ProjectContainer {
+  width: 97vw;
+  height: fit-content;
+  background-color: #0f172a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Pbox1 {
+  width: 80vw;
+  height: 200px;
+  background-color: #0b450d;
+  display: flex;
+  border: #09b90f solid 2px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding-bottom: 2px;
+  box-shadow: 10px 10px 12px white;
+}
+.PPic {
+  width: 20%;
+  height: 200px;
+  background-image: url("img/Expense\ Tracker.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 5px;
+  border-bottom: #09b90f 2px solid;
+}
+.PDis {
+  width: 60%;
+  background-color: aliceblue;
+  height: 200px;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+}
+.ProHeading {
+  width: 100%;
+  background-color: #0b450d;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.ProDescription {
+  width: 100%;
+  background-color: #0b450d;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.para2 {
+  width: 60%;
+  height: fit-content;
+  color: white;
+}
+.PIcon {
+  width: 20%;
+  height: 200px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: #09b90f solid 2px;
+  padding-right: 0px;
+}
+.GIcon {
+  width: 90%;
+  height: 150px;
+  background-color: #09b90f;
+  display: flex;
+  background-image: url("img/github.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+.btn2 {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.pbox2 {
+  width: 80vw;
+  height: 200px;
+  background-color: #0b450d;
+  display: flex;
+  border: #09b90f solid 2px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding-bottom: 2px;
+  box-shadow: 10px 10px 12px white;
+  margin-top: 100px;
+}
+.PPic1 {
+  width: 20%;
+  height: 200px;
+  background-image: url("img/Defence.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 5px;
+  border-bottom: #09b90f 2px solid;
+}
+.pbox3 {
+  width: 80vw;
+  height: 200px;
+  background-color: #0b450d;
+  display: flex;
+  border: #09b90f solid 2px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding-bottom: 2px;
+  box-shadow: 10px 10px 12px white;
+  margin-top: 100px;
+}
+.PPic2 {
+  width: 20%;
+  height: 200px;
+  background-image: url("img/foodDelivery.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 5px;
+  border-bottom: #09b90f 2px solid;
+}
+.PPic3 {
+  width: 20%;
+  height: 200px;
+  background-image: url("img/E-Commerce.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 5px;
+  border-bottom: #09b90f 2px solid;
+}
+.btn {
+  width: 200px;
+}
+.Bbtn {
+  width: 97vw;
+  height: 100px;
+  margin-bottom: 50px;
+  padding-right: 100px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+}
+.viewPBtn {
+  width: 100%;
+  height: 100px;
+  background-color: #0f172a;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding-right: 100px;
+}
+.Skill {
+  width: 100vw;
+  height: fit-content;
+  background-color: rgb(255, 251, 251);
+  display: flex;
+}
+.SkillContainer {
+  width: 97vw;
+  height: fit-content;
+  background-color: #0f172a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.skillBox1 {
+  width: 80vw;
+  height: 300px;
+  background-color: #0f172a;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.sBox1 {
+  width: 20%;
+  height: 80%;
+  background-color: #0b450d;
+  border: solid rgb(20, 236, 20) 2px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 10px 10px 10px white;
+}
+.sBox1:hover {
+  transform: scaleX(0.5);
+  box-shadow: none;
+
+  transition-duration: 1s;
+}
+.sBox2:hover {
+  transform: scaleX(0.5);
+  box-shadow: none;
+  transition-duration: 1s;
+}
+.sBox3:hover {
+  transform: scaleX(0.5);
+  box-shadow: none;
+  transition-duration: 1s;
+}
+.sBox2 {
+  width: 20%;
+  height: 80%;
+  background-color: #0b450d;
+  border: solid rgb(20, 236, 20) 2px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 10px 10px 10px white;
+}
+.sBox3 {
+  width: 20%;
+  height: 80%;
+  background-color: #0b450d;
+  border: solid rgb(20, 236, 20) 2px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 10px 10px 10px white;
+}
+
+.skillBox2 {
+  width: 80vw;
+  height: 300px;
+  background-color: #0f172a;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.Chart {
+  width: 100%;
+  height: 60%;
+  background-color: white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.sDisIcon {
+  width: 100%;
+  height: 40%;
+  background-color: #0b450d;
+  border-radius: 20px;
+  display: flex;
+}
+.IconSkill {
+  width: 60%;
+  height: 100%;
+  background-color: #0b450d;
+  background-position: center;
+  border-bottom-left-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.iconIm {
+  width: 40%;
+  height: 100%;
+  background-image: url("img/refresh.png");
+
+  background-repeat: no-repeat;
+  background-color: #093d0b;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-bottom-right-radius: 20px;
+}
+.mid {
+  width: 97vw;
+  height: 300px;
+  background-color: #0f172a;
+}
+.mid1 {
+  width: 97vw;
+  height: 100px;
+  background-color: #0f172a;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 150px;
+}
+.contact {
+  width: 100vw;
+  height: fit-content;
+  background-color: rgb(255, 251, 251);
+}
+.contactContainer {
+  width: 97vw;
+  height: 500px;
+  background-color: #093d0b;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.Social3D {
+  width: 100%;
+  height: 100%;
+  background-color: #093d0b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.facebook {
+  width: 9%;
+  height: 50%;
+  border: white solid 2px;
+  background: transparent;
+  border-radius: 20px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bolder;
+}
+.Linkdin {
+  width: 9%;
+  height: 50%;
+  border: white solid 2px;
+  background: transparent;
+  border-radius: 20px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bolder;
+}
+.Tuwiter {
+  width: 9%;
+  height: 50%;
+  border: white solid 2px;
+  background: transparent;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bolder;
+}
+.DetailsContct {
+  width: 60%;
+  height: 40%;
+  background-color: #093d0b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+#name {
+  border: #ffffff solid 2px;
+  border-radius: 10px;
+  background: transparent;
+  color: wheat;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+#email {
+  border: #ffffff solid 2px;
+  border-radius: 10px;
+  background: transparent;
+  color: wheat;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+#message {
+  border: #ffffff solid 2px;
+  border-radius: 10px;
+  background: transparent;
+  color: wheat;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.sub {
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(17, 228, 17);
+  font-weight: 900;
+  align-self: flex-end;
+}
+.manoj {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #093d0b;
+}
+.heading {
+  width: 60%;
+  height: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bolder;
+}
+.space {
+  width: 20%;
+  height: 100%;
+}
+
+#nameError {
+  color: red;
+}
+#addCard {
+  display: none;
+}
+#blogbtn1 {
+  margin-left: 10px;
+  display: none;
+}
+#disable {
+  display: none;
+}
+#BP {
+  margin-left: 20px;
+  display: none;
+}
+.githubD {
+  display: flex;
+  flex-direction: column;
+  width: 92vw;
+  height: fit-content;
+}

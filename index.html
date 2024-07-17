@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PortFolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- About section -->
+    <div class="About">
+      <div class="profiles">
+        <div class="proPic"></div>
+        <div class="proDetails">
+          <div class="supe">
+            <h2>Manoj Wickramasingha</h2>
+          </div>
+          <div class="subD">
+            <h5>Fullstack Developer</h5>
+            <p>As a dedicated and innovative full-stack developer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="Description">
+        <div class="para1">
+          <p>
+            As a dedicated and innovative
+            <strong>Full-Stack Developer</strong> , I excel in creating dynamic
+            and scalable web applications. My expertise spans both front-end and
+            back-end technologies, with a keen eye for elegant
+            <strong>UI/UX design</strong> and a commitment to delivering robust,
+            efficient, and user-friendly solutions.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Blog section -->
+    <div class="Blog">
+      <div class="BlogContainer">
+        <div class="Bbox1">
+          <div class="BlogPic"></div>
+          <div class="BlogDetails">
+            <h2>Polymorphism Java</h2>
+            <div class="butt1">
+              <button type="button" class="btn btn-success" id="vewBlog1" onclick="location.href = 'https://manojcodesjava.blogspot.com/search/label/JAVA';">View Blog</button>
+              <div class="icon">
+                <i class="fa-solid fa-share"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="Bbox2">
+          <div class="BlogPic1"></div>
+          <div class="BlogDetails">
+            <h2>JavaScript Tutorial</h2>
+            <div class="butt1">
+              <button type="button" class="btn btn-success">View Blog</button>
+              <div class="icon">
+                <i class="fa-solid fa-share"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- add card -->
+        <div class="Bbox1" id="addCard">
+          <div class="BlogPic2"></div>
+          <div class="BlogDetails">
+            <h2>Python Tutorial</h2>
+            <div class="butt1">
+              <button type="button" class="btn btn-success">View Blog</button>
+              <div class="icon">
+                <i class="fa-solid fa-share"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+         <!--  -->
+      </div>
+    </div>
+    <div class="mid1">
+      <button type="button" class="btn btn-success btn" id="blogbtn" onclick="AddCard()">
+        Achive More Blog
+      </button>
+      <button type="button" class="btn btn-success " id="blogbtn1" onclick="RemoveCard()">
+        Back
+      </button>
+    </div>
+    <!-- Project section -->
+    <div class="Project">
+      <div class="ProjectContainer">
+        <div class="Bbtn"></div>
+        <div class="Pbox1">
+          <div class="PPic"></div>
+          <div class="PDis">
+            <div class="ProHeading">
+              <h1>Expense Tracker System</h1>
+            </div>
+            <div class="ProDescription">
+              <div class="para2">
+                <p>
+                  Expense and income management and analysis this web
+                  application using Rect and .NET
+                </p>
+              </div>
+            </div>
+            
+          </div>
+          <div class="PIcon">
+            <div class="GIcon"></div>
+            <div class="btn2">
+              <button type="button" class="btn btn-success" style="width: 80%" id="Vblogbtn1" onclick=" location.href = 'https://github.com/ManojWickramasingha?tab=repositories';">
+                View Project
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="pbox2">
+          <div class="PPic1"></div>
+          <div class="PDis">
+            <div class="ProHeading">
+              <h1>Defence System</h1>
+            </div>
+            <div class="ProDescription">
+              <div class="para2">
+                <p>
+                  Defence system fully safe operation demo in Java oop concept
+                  using net bean project
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="PIcon">
+            <div class="GIcon"></div>
+            <div class="btn2">
+              <button type="button" class="btn btn-success" style="width: 80%" id="Vblogbtn2" onclick=" location.href = 'https://github.com/ManojWickramasingha?tab=repositories';">
+                View Project
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="pbox3">
+          <div class="PPic2"></div>
+          <div class="PDis">
+            <div class="ProHeading">
+              <h1>Food Delivery System</h1>
+            </div>
+            <div class="ProDescription">
+              <div class="para2">
+                <p>
+                  Food delivery system tracking deliver and fast delivery
+                  Angular and sprint boot using this project.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="PIcon">
+            <div class="GIcon"></div>
+            <div class="btn2">
+              <button type="button" class="btn btn-success" style="width: 80%" id="Vblogbtn3" onclick=" location.href = 'https://github.com/ManojWickramasingha?tab=repositories';">
+                View Project
+              </button>
+            </div>
+          </div>
+        </div>
+         <!-- add Project -->
+         <div class="pbox2" id="disable">
+          <div class="PPic3"></div>
+          <div class="PDis">
+            <div class="ProHeading">
+              <h1>E-Commerce Project</h1>
+            </div>
+            <div class="ProDescription">
+              <div class="para2">
+                <p>
+                  An E-Commerce project streamlines online shopping by offering a user-friendly platform for customers to browse, purchase products, and manage orders efficiently and securely.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="PIcon">
+            <div class="GIcon"></div>
+            <div class="btn2">
+              <button type="button" class="btn btn-success" style="width: 80%">
+                View Project
+              </button>
+            </div>
+          </div>
+        </div>
+          <!--  -->
+        <div class="viewPBtn">
+          <button type="button" class="btn btn-success" id="AP" style="width: 20%" onclick="AddProject()">
+            View All Project
+          </button>
+          <button type="button" class="btn btn-success" id="BP" style="width: 20%" onclick="RemoveProject()" >
+            Back
+          </button>
+        </div>
+      </div>
+    </div>
+   
+    <div class="mid"></div>
+    <!-- Skill Section -->
+    <div class="Skill">
+      <div class="SkillContainer">
+        <div class="skillBox1">
+          <div class="sBox1">
+            <div class="Chart">
+              <canvas id="skiChart"></canvas>
+            </div>
+            <div class="sDisIcon">
+              <div class="IconSkill">
+                <h1>JAVA</h1>
+              </div>
+              <div class="iconIm"></div>
+            </div>
+          </div>
+          <div class="sBox2">
+            <div class="Chart">
+              <canvas id="skiChart1"></canvas>
+            </div>
+            <div class="sDisIcon">
+              <div class="IconSkill">
+                <h1>JS</h1>
+              </div>
+              <div class="iconIm"></div>
+            </div>
+          </div>
+          <div class="sBox3">
+            <div class="Chart">
+              <canvas id="skiChart2"></canvas>
+            </div>
+            <div class="sDisIcon">
+              <div class="IconSkill">
+                <h1>C</h1>
+              </div>
+              <div class="iconIm"></div>
+            </div>
+          </div>
+        </div>
+        <div class="skillBox2">
+          <div class="sBox1">
+            <div class="Chart">
+              <canvas id="skiChart3"></canvas>
+            </div>
+            <div class="sDisIcon">
+              <div class="IconSkill">
+                <h1>C++</h1>
+              </div>
+              <div class="iconIm"></div>
+            </div>
+          </div>
+          <div class="sBox2">
+            <div class="Chart">
+              <canvas id="skiChart4"></canvas>
+            </div>
+            <div class="sDisIcon">
+              <div class="IconSkill">
+                <h1>CSS</h1>
+              </div>
+              <div class="iconIm"></div>
+            </div>
+          </div>
+          <div class="sBox3">
+            <div class="Chart">
+              <canvas id="skiChart5"></canvas>
+            </div>
+            <div class="sDisIcon">
+              <div class="IconSkill">
+                <h1>GO</h1>
+              </div>
+              <div class="iconIm"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mid"></div>
+    <!-- Contact Section -->
+    <div class="contact">
+      <div class="contactContainer">
+        <div class="manoj">
+          <div class="heading">
+            <h1>Manoj Wickramasingha</h1>
+          </div>
+          <div class="Social3D">
+            <div class="facebook">
+              <i class="fa-brands fa-facebook"></i>
+            </div>
+            <div class="Linkdin">
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+            <div class="Tuwiter">
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="DetailsContct">
+          <p id="nameError"></p>
+          <div class="form">
+            <input
+              type="text"
+              name="username"
+              id="name"
+              placeholder="Your Name"
+            />
+            <br />
+
+            
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your Email"
+              onkeyup="EmailValidate()"
+            />
+            <p id="emailError"></p>
+
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Enter Message"
+            ></textarea>
+            <br />
+            <button type="submit" class="sub" onclick="validate()">
+              Submit
+            </button>
+          </div>
+        </div>
+        <div class="space"></div>
+      </div>
+    </div>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="JS/script.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+</html>
